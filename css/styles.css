@@ -172,15 +172,15 @@ a {
 }
 
 .card__bg__one {
-  background-image: url(/images/admin-bg-main.png);
+  background-image: url(../images/admin-bg-main.png);
 }
 
 .card__bg__two {
-  background-image: url(/images/belohnung-auto-bg.png);
+  background-image: url(../images/belohnung-auto-bg.png);
 }
 
 .card__bg__three {
-  background-image: url(/images/belohnung-geld-bg.png);
+  background-image: url(../images/belohnung-geld-bg.png);
 }
 
 .crown {
@@ -317,7 +317,7 @@ a {
 }
 
 .drafter__label {
-  background-image: url(/images/drafter-bg.png);
+  background-image: url(../images/drafter-bg.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -387,7 +387,7 @@ a {
 }
 
 .drafter-number {
-  background-image: url(/images/counter-bg.png);
+  background-image: url(../images/counter-bg.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
