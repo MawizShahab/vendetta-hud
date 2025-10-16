@@ -208,7 +208,7 @@ a {
   justify-content: flex-end;
 }
 .content__title img {
-  max-width: 75%;
+  max-width: 48%;
 }
 
 .labels-container {
@@ -425,4 +425,51 @@ a {
   height: 2px;
   background: linear-gradient(90deg, #370000 -0.65%, #c70000 25.51%);
   width: 80%;
+}
+
+.square__bg {
+  background-image: url(../images/icons/autoschloss-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  width: 12rem;
+  height: 4.8rem;
+}
+
+.square {
+  display: block;
+  width: 11px;
+  height: 11px;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+.square__red {
+  background: linear-gradient(
+    135deg,
+    rgba(157, 0, 0, 0.95) 6.43%,
+    rgba(55, 0, 0, 0.95) 93.2%
+  );
+}
+
+.square__green {
+  background: linear-gradient(
+    135deg,
+    rgba(39, 194, 0, 0.95) 28.12%,
+    rgba(9, 47, 0, 0.95) 93.2%
+  );
+}
+
+.square-icon img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.square-icon {
+  margin-top: 2px;
+  margin-left: 7px;
 }
